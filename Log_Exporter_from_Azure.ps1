@@ -3,7 +3,7 @@ $API_KEY      = "da711be8675044bb8dce0b799de36fd4"
 $LOGFILE_NAME = "failed_rdp.log"
 $LOGFILE_PATH = "C:\ProgramData\$($LOGFILE_NAME)"
 
-# This filter will be used to filter failed RDP events from Windows Event Viewer on the Microsoft Azure
+# This filter will be used to filter failed RDP events from Windows Event Viewer
 $XMLFilter = @'
 <QueryList> 
    <Query Id="0" Path="Security">
