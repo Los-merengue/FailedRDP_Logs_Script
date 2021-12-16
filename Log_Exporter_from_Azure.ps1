@@ -46,7 +46,7 @@ while ($true)
 {
     
     Start-Sleep -Seconds 1
-    # This retrieves events from Windows EVent Viewer based on the filter
+    # This retrieves events from Windows Event Viewer based on the filter
     $events = Get-WinEvent -FilterXml $XMLFilter -ErrorAction SilentlyContinue
     if ($Error) {
         #Write-Host "No Failed Logons found. Re-run script when a login has failed."
